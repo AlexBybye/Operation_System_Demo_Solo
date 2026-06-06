@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build All",
+            "type": "shell",
+            "command": "make all",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "编译整个项目（make all）"
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": [],
+            "detail": "清理构建产物（make clean）"
+        }
+    ]
+}
